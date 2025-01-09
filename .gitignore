@@ -1,0 +1,11 @@
+.vscode
+
+inst/doc
+docs
+
+/.quarto/
+/doc/
+/Meta/
+
+_site
+venv
