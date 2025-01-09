@@ -70,11 +70,11 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="About – JieShuang’ blog">
 <meta property="og:description" content="">
-<meta property="og:image" content="profile.jpg">
+<meta property="og:image" content="https://nlimpid.github.io/blog/profile.jpg">
 <meta property="og:site_name" content="JieShuang' blog">
 <meta name="twitter:title" content="About – JieShuang’ blog">
 <meta name="twitter:description" content="">
-<meta name="twitter:image" content="profile.jpg">
+<meta name="twitter:image" content="https://nlimpid.github.io/blog/profile.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -241,7 +241,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/nlimpid\.github\.io\/blog\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
